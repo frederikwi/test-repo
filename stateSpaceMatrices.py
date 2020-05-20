@@ -40,5 +40,5 @@ def inputmatrixE(Gamma_m,kappa,nbar):
 
 def inputmatrixGamma(theta,eta,kappa_out):
     return np.sqrt(eta*kappa_out/2)*np.array(
-        [0,0,-cos(theta),-sin(theta)]
+        [0,0,-np.cos(theta),-np.sin(theta)]
     )
